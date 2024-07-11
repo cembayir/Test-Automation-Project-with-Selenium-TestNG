@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Tüm Testleri Paralel Çalıştırma">
+    <test name="All Test - E2E" parallel="classes" thread-count="3" verbose="3">
+        <packages>
+            <package name="tests.Ders11"></package>
+        </packages>
+    </test>
+</suite>

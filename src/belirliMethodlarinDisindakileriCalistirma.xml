@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Belirli Methodların Dışındakileri Çalıştırma">
+    <test name="Methodları Çalıştırma">
+        <classes>
+            <class name="tests.Ders09.C03_Priority">
+                <methods>
+                    <exclude name="testAmazon">
+
+                    </exclude>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
